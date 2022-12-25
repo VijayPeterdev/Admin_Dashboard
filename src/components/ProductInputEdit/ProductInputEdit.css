@@ -1,0 +1,32 @@
+.productinputedit{
+height: max-content;
+padding: 2rem;
+border-radius: 14px;
+margin-top: 1rem;
+gap: 1rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+    box-shadow: 2px 3px 7px rgba(183, 181, 181, 0.55);
+}
+.product__right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product__row{
+    display: flex;
+}
+
+.upload__section{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload_section_img{
+    margin-top: -2rem;
+    width: 150px;
+    height: 150px;
+}

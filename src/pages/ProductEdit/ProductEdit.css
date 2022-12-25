@@ -1,0 +1,25 @@
+
+
+.productedit{
+    padding: 1rem;
+}
+
+
+.row{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mui_btn{
+    display: flex;
+
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.grid__view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

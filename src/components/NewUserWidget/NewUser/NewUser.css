@@ -1,0 +1,46 @@
+
+
+.userDetails{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.avator{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.userdetails_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sub_name{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.displaybtn{
+    padding: 5px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 6rem;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    box-shadow: 2px 3px 7px rgba(198, 198, 198, 0.635);
+}

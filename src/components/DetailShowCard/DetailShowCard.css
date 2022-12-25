@@ -1,0 +1,43 @@
+
+.detailshowcard{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+   padding-left: 1rem;
+    width: 100%;
+    border-radius: 12px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 2px 3px 7px rgba(196, 195, 195, 0.566);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.detailcard{gap: 12px;
+    align-items: center;
+
+ margin-top: 1rem;
+    display: flex;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.account__details{
+font-weight: 400;
+color: rgba(143, 139, 139, 0.811);
+    margin-top: 1rem;
+}
+
+.account__info{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}

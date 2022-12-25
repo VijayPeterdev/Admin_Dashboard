@@ -1,0 +1,6 @@
+.main__area{
+    margin-top: 5rem;
+    padding: 0px 1rem;
+    display: grid;
+    grid-template-columns: 0.4fr 2fr ;
+}

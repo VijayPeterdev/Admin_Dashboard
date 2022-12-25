@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+:root {
+  --lighttheme-white: white;
+  --darktheme-black: black;
+  --textlighttheme : black;
+  --textdarktheme : white;
+}

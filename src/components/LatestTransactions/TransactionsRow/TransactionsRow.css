@@ -1,0 +1,47 @@
+.table_head {
+  text-align: left;
+}
+
+.table_profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.table_button {
+  padding: 5px;
+  justify-content: center;
+text-align: center;
+  display: flex;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.table_profile_pic {
+  width: 40px;
+  object-fit: cover;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.username_table {
+  font-weight: 16px;
+  font-weight: 500;
+}
+
+.table_button.approved {
+  color: rgb(25, 68, 25);
+  background-color: rgba(182, 248, 182, 0.877);
+}
+
+.table_button.pending {
+    color: orange;
+    background-color: rgba(248, 192, 87, 0.406);
+  }
+
+  .table_button.cancel {
+    color: red;
+    background-color: rgba(250, 125, 125, 0.45);
+  }
+  
+  

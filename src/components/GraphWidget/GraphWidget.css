@@ -1,0 +1,17 @@
+.graphwidget{
+display: flex;
+
+flex-direction: column;
+border-radius: 12px;
+margin: auto;
+width: 95%;
+margin-top: 2rem;
+height: 19rem;
+    background-color: white;
+    box-shadow: 2px 3px 8px rgba(164, 163, 163, 0.637);
+}
+.graph__title{
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}

@@ -1,0 +1,8 @@
+.home__row{
+    margin-top: 1rem;
+    gap: 12px;
+    display: grid;
+    margin-left: 12px;
+    grid-template-columns: 0.5fr 1fr;
+
+}

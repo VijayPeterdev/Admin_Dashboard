@@ -1,0 +1,41 @@
+
+
+.LastestTransactions{
+    background-color: white;
+    box-shadow: 2px 3px 7px rgba(200, 199, 199, 0.674);
+
+    
+}
+
+
+.LastestTransactions__container{
+    
+    width: 100%;
+    height: 410px;
+    background-color: white;
+   
+ overflow-y: auto;
+
+
+}
+
+.transaction__table{
+ 
+}
+
+
+.table_title{
+    display: flex;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.table{
+    width: 100%;
+    border-spacing: 2rem;
+    overflow-y: scroll;
+}
+
+

@@ -1,0 +1,70 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+
+  width: 100%;
+}
+
+.navbar__container {
+  display: flex;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  width: 100%;
+  align-items: center;
+  padding: 0px 2rem;
+  color: var(--textdarktheme);
+  height: 60px;
+  justify-content: space-between;
+}
+
+.navbar__left {
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar__right {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  font-size: 20px;
+}
+.notification__badge {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.badge__count {
+  position: relative;
+  background-color: red;
+  padding: 5px;
+  font-size: 10px;
+  width: 14px;
+  justify-content: center;
+  height: 14px;
+  display: flex;
+  top: -9px;
+  left: -9px;
+  align-self: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.profile__pic {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.profile__pic:hover {
+  outline: 1px solid red;
+  transform: scale(1.1);
+  transition: 0.2s all ease;
+}
