@@ -15,3 +15,20 @@
   --textlighttheme : black;
   --textdarktheme : white;
 }
+
+.button{
+  width: 120px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+  color: white;
+  transition: 1s ease;
+
+}
+
+ .button:hover{
+  transition: 1s ease;
+  transform: scale(1.08);
+ }
+

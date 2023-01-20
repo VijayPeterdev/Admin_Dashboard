@@ -9,14 +9,15 @@ const LastestTransactions = () => {
       <div className="LastestTransactions__container">
         <div className="transaction__table">
           <table className="table">
-            <thead className="table_head">
+            <tbody className="table_head">
+              <td className="table_head">Customer</td>
+              <td className="table_head">Date</td>
+              <td className="table_head">Amount</td>
+              <td className="table_head">Status</td>
+              <td>View</td>
+            
+            <>
            
-              <th className="table_head">Customer</th>
-              <th className="table_head">Date</th>
-              <th className="table_head">Amount</th>
-              <th className="table_head">Status</th>
-              <th>View</th>
-              <>
                 <TransactionsRow
                   TransactionAmount={"200"}
                   status={"pending"}
@@ -72,8 +73,9 @@ const LastestTransactions = () => {
                   TransactionDate={"23 Jun 2022"}
                   username={"Vijay Peter"}
                 />
-              </>
-            </thead>
+             
+            </>
+            </tbody>
           </table>
         </div>
       </div>

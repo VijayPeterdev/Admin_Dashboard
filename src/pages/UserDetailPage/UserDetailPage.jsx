@@ -3,9 +3,14 @@ import React from "react";
 import "./UserDetailPage.css";
 import DetailShowCard from "./../../components/DetailShowCard/DetailShowCard";
 import DetailEditCard from './../../components/DetailEditCard/DetailEditCard';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const UserDetailPage = () => {
+
+   const location  = useLocation();
+   
+  const user = location.state.userdata;
+
   return (
     <div className="userdetail_container">
       <div className="userdetail_row">
@@ -19,8 +24,8 @@ const UserDetailPage = () => {
       {/* ================= split  user section ================ */}
 
       <div className="userdeatilscard_holder">
-        <DetailShowCard />
-        <DetailEditCard/>
+        <DetailShowCard   user = {user}  />
+        <DetailEditCard  user = {user}/>
       </div>
     </div>
   );

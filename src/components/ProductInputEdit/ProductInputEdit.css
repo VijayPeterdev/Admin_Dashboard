@@ -20,13 +20,65 @@ grid-template-columns: 1fr 1fr;
 
 .upload__section{
     display: flex;
+    
     gap: 1rem;
     align-items: center;
     flex-direction: column;
 }
 
 .upload_section_img{
-    margin-top: -2rem;
+  margin-bottom: 1rem;
+    display: flex;
+   
+
     width: 150px;
     height: 150px;
+}
+
+.button__color{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.upload_section_holder{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    margin-left: 1rem;
+
+}
+.upload_moviethmb{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.upload_animation_thmb{
+
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+.upload_movie_logo_holder{
+    padding: 1rem;
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    object-fit: contain;
+}
+
+.button_style{
+    width: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    display: flex;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 3px 7px rgba(202, 200, 200, 0.432);
 }

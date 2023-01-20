@@ -12,8 +12,8 @@ import {
   MdReport,
 } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
-import { CgShoppingBag } from "react-icons/cg";
-import { BiMessageSquareDetail, BiTransferAlt } from "react-icons/bi";
+
+import { BiMessageSquareDetail, BiMoviePlay, BiTransferAlt } from "react-icons/bi";
 import { GrAnalytics } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import { IoAnalyticsOutline } from "react-icons/io5";
@@ -55,9 +55,9 @@ const SidebarOptions = () => {
                   <FaRegUser /> User
                 </li>
               </Link>
-              <Link to={"/product"}>
+              <Link to={"/movies"}>
                 <li className="option">
-                  <CgShoppingBag /> Products
+                  <BiMoviePlay/> Movies
                 </li>
               </Link>
 
