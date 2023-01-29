@@ -6,7 +6,7 @@ import  "firebase/compat/storage";
 // 2nd step Firebase Config  paste
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyeSWpFo85u-m592mW1KOZTwBVaBYYz4g",
+  apiKey: "process.env.firebaseAPi",
   authDomain: "netflix-12f69.firebaseapp.com",
   projectId: "netflix-12f69",
   storageBucket: "netflix-12f69.appspot.com",
